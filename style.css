@@ -1,0 +1,22 @@
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+h4::first-letter, h5::first-letter {
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#primary-list {
+    list-style: none;
+}
+
+img, p {
+    display: block;
+    margin: 0 auto;
+}
