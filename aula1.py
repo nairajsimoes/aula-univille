@@ -26,6 +26,9 @@ novo_salario = salario + aumento
 print(f"Salário atual: R$ {salario:.2f} → Novo salário: R$ {novo_salario:.2f}")
 
 # Exercício 6 - Converta Celsius para Fahrenheit
+celsius = float(input(f'Digite a temperatura em Celsius:'))
+fahrenheit = (celsius * 9/5) + 32
+print(f"A temperatura {celsius}° é igual a {fahrenheit}F!")
 
 # Exercício 7 - Mostre Dados Completos: Nome, Idade e Cidade
 
