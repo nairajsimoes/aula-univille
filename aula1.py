@@ -14,3 +14,8 @@ ano_atual = date.today().year
 ano_nascimento = int(input('Digite seu ano de nascimento: '))
 idade = ano_atual - ano_nascimento
 print(f'Você tem {idade} anos!')
+
+salario = input(f"float(Digite seu salário atual:")
+aumento = salario*0,10 
+novo_salario = salario + aumento
+print(f"Salário atual: R$ {salario:.2f} → Novo salário: R$ {novo_salario:.2f}")
