@@ -46,5 +46,7 @@ print(f'A divisão dos dois números {a} / {b} é igual a {a/b}')
 print(f'O resto de dois números {a} % {b} é igual a {a%b}')
 
 # Exercício 9 - Calcule o Salário por Horas Trabalhadas
+valor_hora = float(input(f'Digite quanto você recebe por hora:'))
+horas = float(i)
 
 # Exercício 10 - Converta Reais para Dólares
