@@ -31,8 +31,19 @@ fahrenheit = (celsius * 9/5) + 32
 print(f"A temperatura {celsius}° é igual a {fahrenheit}F!")
 
 # Exercício 7 - Mostre Dados Completos: Nome, Idade e Cidade
+nome = input(f'Vamos fazer seu cadastro! Comece botando seu nome:')
+idade = int(input(f'Agora digite sua idade:'))
+cidade = input(f'Por último, nos diga sua cidade:')
+print(f'Informações de cadastro: Nome: {nome} | Idade: {idade} | Cidade: {cidade}')
 
 # Exercício 8 - Faça Todas as Operações Matemáticas
+a = int(input(f'Digite um número inteiro para as operações matemáticas:'))
+b = int(input(f'Digite outro número inteiro:'))
+print(f'A soma dos dois números {a} + {b} é igual a {a+b}')
+print(f'A subtração dos dois números {a} - {b} é igual a {a-b}')
+print(f'A multiplicação dos dois números {a} * {b} é igual a {a*b}')
+print(f'A divisão dos dois números {a} / {b} é igual a {a/b}')
+print(f'O resto de dois números {a} % {b} é igual a {a%b}')
 
 # Exercício 9 - Calcule o Salário por Horas Trabalhadas
 
