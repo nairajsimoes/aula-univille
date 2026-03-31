@@ -47,6 +47,14 @@ print(f'O resto de dois números {a} % {b} é igual a {a%b}')
 
 # Exercício 9 - Calcule o Salário por Horas Trabalhadas
 valor_hora = float(input(f'Digite quanto você recebe por hora:'))
-horas = float(i)
+horas = float(input(f'Quantas horas você trabalha?'))
+salario = horas * valor_hora 
+desconto = salario * 0.11
+salario_liquido = salario - desconto 
+print(f'O seu salário bruto é de R$ {salario:.2f}. Menos o desconto de R${desconto:.2f}, seu salário líquido é R${salario_liquido:.2f}.')
 
 # Exercício 10 - Converta Reais para Dólares
+valor = float (input(f'Insira um valor em reais: R$'))
+cotacao = 3.59
+dolares = valor / cotacao
+print(f"Você tem {dolares} dólares australianos.")
