@@ -1,12 +1,10 @@
-body {
-    background-color: rgba(255, 0, 255, 0.267);
-}
+
 
 h1, h2, h3 {
     text-transform: uppercase;
     font-size: 30px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 h4::first-letter, h5::first-letter {
@@ -24,4 +22,12 @@ a:hover {
 img, p {
     display: block;
     margin: 0 auto;
+}
+
+.banner {
+    height: 230px;
+    width: 100vw;
+    background-image: url(94560fe3-0c9a-433d-a899-e67c257e2c6c.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
 }
